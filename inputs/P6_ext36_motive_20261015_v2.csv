@@ -1,0 +1,35 @@
+ep,class,verif,paired_cut_found,basis,source
+DE1983Q3,a,partial,yes (direct tax cuts esp. Mittelstand),paired with business/direct tax cuts; no date in text,KAS HPM_08_01_9.pdf
+DE1993Q1,?,partial,,source predates decision (14->16 discussed; EC harmonization argued),taz 1992
+DE1998Q2,c,partial,no,avoid raising pension contribution rate,DIW 98-14; Mondaq
+FR1982Q3,?,partial,VAT-internal: reduced rate 7->5.5,purpose not stated in source (June 1982 price-wage freeze context),INSEE Point 8207
+FR1995Q3,b,partial,no,deficit reduction for Maastricht criteria,Larousse annual
+HU2009Q3,a,good,yes (employer SSC -5pp; lowest PIT bracket widened),VAT 20->25 paired,wiiw dlp-1344
+FI2013Q1,b,partial,no,balance state finances; tax-increase package,Intl Tax Review; vatcalc
+FI2010Q3,a_b,partial,VAT-internal: restaurant rate 22->13 (about 260m of 485m),"fiscal reasons; offset within VAT, no other tax cut found",Finlex government proposal
+ES2010Q3,b,partial,no,offset crisis revenue fall (b or c),Funcas
+ES2012Q3,b,partial,no,deficit 9.44% GDP,Funcas
+IE2012Q1,b,partial,no,revenue-raising; EU/IMF programme,Oireachtas
+GR2010Q1,b,good,no,austerity to restore public finances,Euromod IndirectTaxCountryReport_EL
+GR2010Q3,b,good,no,EU/ECB/IMF memorandum revenue increases,Euromod IndirectTaxCountryReport_EL
+GR2005Q2,?,none,,not found,
+GR2016Q2,?,partial,,purpose not stated in source,Mondaq 2016
+PT2010Q3,b,partial,no,deficit 9.3% to 4.6%; with public pay cuts; no tax cut,df.cl (PT measures); note date of rise 21->23 is Jan 2011 per source
+PT2011Q1,b,partial,no,same PEC consolidation package,df.cl
+PT2005Q3,?,none,,not verified,
+EE2009Q3,b,good,no,keep deficit <=3% (euro entry); excise also raised,Baltic Times 23132
+IL2013Q2,b,partial,no,rein in deficit (headline only; body not read),JNS
+MX2010Q1,b,low,no (package mostly increases),revenue law; purpose not stated in source,La Jornada 2009-12-21
+IT2013Q4,c,good,no,automatic increase under earlier legislation (public-accounts rebalancing),Il Post 2013-10-01
+IT2011Q3,?,none,,not fetched,
+IT1997Q4,?,none,,not searched,
+PL2011Q1,b,good,partial (new 5% reduced rate on basic foods),crisis/public finances/debt; temporary; small offset like GB2011,isp-modzelewski (Act 2010-11-26)
+SK2011Q1,b,good,no,austerity package EUR1.7bn; stays until deficit<3%,Slovak Spectator
+NO2001Q1,a,partial,yes (excise cuts on alcohol/fuel; meat compensation),revenue-neutral VAT reform financing cuts in other taxes,Stortinget Innst.O.24 (2000-01)
+NO1993Q1,c,good,no (food VAT compensation only),"finance business support package (spending), not consolidation",Stortinget Innst.O.73 (1993-94)
+NO1995Q1,?,none,,not verified,
+NO2005Q1,a,good,"yes (top income tax cut, wage deduction, owner-occupied housing, wealth tax relief)",shift of tax burden from labour to consumption; net tax cut,Stortinget Innst.S.1 (2004-05) ch.2
+CZ2010Q1,?,none,,not found,
+CZ2013Q1,?,none,,source did not state purpose,Euromod CZ
+IS2010Q1,b,partial,no,fiscal repair after bank rescue (rate raise 24.5->25.5 date not given),IMF CR14/291
+CH1999Q1,c,good,no,earmarked for AHV (old-age insurance); no tax cuts mentioned,HLS-DHS-DSS 013769

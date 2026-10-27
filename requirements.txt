@@ -1,0 +1,5 @@
+numpy
+pandas
+scipy
+matplotlib
+scpi_pkg   # only for code/python/cft_core.py

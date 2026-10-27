@@ -1,0 +1,207 @@
+﻿country,name,effective_ym,quarter,old_rate,new_rate,change_pp,kind,confidence,sources,note
+AT,Austria,1973-01,1973Q1,,16.0,,introduction,HIGH,EC98;EC99,
+AT,Austria,1976-01,1976Q1,16.0,18.0,2.0,increase,HIGH,EC98;EC99,
+AT,Austria,1984-01,1984Q1,18.0,20.0,2.0,increase,HIGH,EC98;EC20,EC20: unchanged since 1984-01
+AU,Australia,2000-07,2000Q3,,10.0,,introduction,HIGH,LEGISLATION.GOV.AU;ATO,一次確認2026-10-13: GST法s1-2、s9-70
+BE,Belgium,1971-01,1971Q1,,18.0,,introduction,HIGH,EC98;EC99,
+BE,Belgium,1978-01,1978Q1,18.0,16.0,-2.0,cut,HIGH,EC98;EC99,
+BE,Belgium,1981-07,1981Q3,16.0,17.0,1.0,increase,HIGH,EC98;EC91,
+BE,Belgium,1983-01,1983Q1,17.0,19.0,2.0,increase,HIGH,EC98;EC91,
+BE,Belgium,1992-04,1992Q2,19.0,19.5,0.5,increase,HIGH,EC98;EC99,
+BE,Belgium,1994-01,1994Q1,19.5,20.5,1.0,increase,HIGH,EC98;EC20,
+BE,Belgium,1996-01,1996Q1,20.5,21.0,0.5,increase,HIGH,EC98;EC20,"EC14 says 21% since 2000 (re-enactment, treated as no change)"
+CA,Canada,1991-01,1991Q1,,7.0,,introduction,HIGH,LOP;CRA,一次確認2026-10-13: 議会図書館、ETA s165。連邦GSTのみ
+CA,Canada,2006-07,2006Q3,7.0,6.0,-1.0,cut,HIGH,CRA,
+CA,Canada,2008-01,2008Q1,6.0,5.0,-1.0,cut,HIGH,CRA,
+CH,Switzerland,1995-01,1995Q1,,6.5,,introduction,HIGH,BAZG,replaced WUST; not comparable
+CH,Switzerland,1999-01,1999Q1,6.5,7.5,1.0,increase,HIGH,BAZG,
+CH,Switzerland,2001-01,2001Q1,7.5,7.6,0.1,increase,HIGH,BAZG,
+CH,Switzerland,2011-01,2011Q1,7.6,8.0,0.4,increase,HIGH,BAZG,temporary IV surcharge (recollection)
+CH,Switzerland,2018-01,2018Q1,8.0,7.7,-0.3,cut,HIGH,BAZG,net of IV expiry and +0.1 rail fund (recollection)
+CH,Switzerland,2024-01,2024Q1,7.7,8.1,0.4,increase,HIGH,BAZG,
+CL,Chile,1975-03,1975Q1,,20.0,,introduction,HIGH,BCN,一次確認2026-10-13: DL 825、1975-03-01施行、20%
+CL,Chile,1988-06,1988Q2,20.0,16.0,-4.0,cut,MEDIUM,SII;BCN,SII通達35(1988-06-23)。BCN統合文は17%と表示(未解決)
+CL,Chile,1990-07,1990Q3,16.0,18.0,2.0,increase,MEDIUM,SII,一次確認2026-10-13: Ley 18.985。1990-07〜1993-12の暫定18%。暫定17%説はBCN統合文の法定基準で実効率ではない(未解決)
+CL,Chile,2003-10,2003Q4,18.0,19.0,1.0,increase,HIGH,SII;BCN,一次確認2026-10-13: Ley 19.888、2003-10-01。2007の戻りはLey 20.102で廃止
+CO,Colombia,2017-01,2017Q1,16.0,19.0,3.0,increase,MEDIUM,SENADO,一次確認2026-10-13: ET art.468 19%(Ley 1819/2016)。1-1施行は原文未確認。2017年以前の履歴は未調査
+CZ,Czech Republic,1993-01,1993Q1,,23.0,,introduction,HIGH,ROSTECKY,一次確認2026-10-13: 連邦法222/1992(OECD)
+CZ,Czech Republic,1995-01,1995Q1,23.0,22.0,-1.0,cut,HIGH,ROSTECKY,一次確認2026-10-13: 月まで確認(OECD+法案)
+CZ,Czech Republic,2004-05,2004Q2,22.0,19.0,-3.0,cut,HIGH,ROSTECKY,一次確認2026-10-13: Act 235/2004 Sb.、財政庁
+CZ,Czech Republic,2010-01,2010Q1,19.0,20.0,1.0,increase,HIGH,ROSTECKY;ACTA14,
+CZ,Czech Republic,2013-01,2013Q1,20.0,21.0,1.0,increase,HIGH,ROSTECKY;ACTA14,2014-2025 unverified
+DE,Germany,1978-01,1978Q1,11.0,12.0,1.0,increase,HIGH,EC98;EC99,earlier anchor said 1978-07; EC says 1978-01
+DE,Germany,1979-07,1979Q3,12.0,13.0,1.0,increase,HIGH,EC98;EC99,
+DE,Germany,1983-07,1983Q3,13.0,14.0,1.0,increase,HIGH,EC98;EC91,
+DE,Germany,1993-01,1993Q1,14.0,15.0,1.0,increase,HIGH,EC98;EC99,
+DE,Germany,1998-04,1998Q2,15.0,16.0,1.0,increase,HIGH,EC99;EC20,
+DE,Germany,2007-01,2007Q1,16.0,19.0,3.0,increase,HIGH,EC20;WIKIDE,
+DE,Germany,2020-07,2020Q3,19.0,16.0,-3.0,temporary_cut,HIGH,BUNDESREG,to 2020-12-31
+DE,Germany,2021-01,2021Q1,16.0,19.0,3.0,reversal,HIGH,BUNDESREG,一次確認2026-10-13: 2020-12-31までの時限(BMF)。再延長なし
+DK,Denmark,1970-06,1970Q2,12.5,15.0,2.5,increase,MEDIUM,LEXDK,一次確認2026-10-13: 実際の施行は1970-06-29(EC1991、tax.dk)
+DK,Denmark,1975-10,1975Q4,15.0,9.25,-5.75,temporary_cut,HIGH,LEXDK,一次確認2026-10-13: 実際の施行は1975-09-29。月次では10月扱い。mimsは一部品目(自動車・電気・電話等)を除外。議会資料は5月29日とも(未解決)
+DK,Denmark,1976-03,1976Q1,9.25,15.0,5.75,reversal,HIGH,LEXDK,一次確認2026-10-13: 1976-03-01(EC1991)
+DK,Denmark,1977-10,1977Q4,15.0,18.0,3.0,increase,HIGH,LEXDK,一次確認2026-10-13: 10月2-3日(出典で不一致)
+DK,Denmark,1978-10,1978Q4,18.0,20.25,2.25,increase,HIGH,LEXDK,一次確認2026-10-13: EC1991、tax.dk、Lex.dkで一致
+DK,Denmark,1980-07,1980Q3,20.25,22.0,1.75,increase,HIGH,LEXDK,一次確認2026-10-13: 実際の施行は1980-06-30。月次では7月扱い
+DK,Denmark,1992-01,1992Q1,22.0,25.0,3.0,increase,MEDIUM,LEXDK,一次確認2026-10-13: tax.dk、Lex.dk(法令原文は未確認)
+EE,Estonia,1991-01,1991Q1,,7.0,,introduction,LOW,TALTECH;TARTU,政府令209/1990、1991-01-10施行(+地方税3%まで)。二次資料のみ
+EE,Estonia,1992-01,1992Q1,7.0,10.0,3.0,increase,LOW,TALTECH;TARTU,最高会議のVAT法。二次資料のみ
+EE,Estonia,1992-06,1992Q2,10.0,18.0,8.0,increase,LOW,TALTECH;TARTU,通貨改革委員会決定35、1992-06-20。二次資料のみ
+EE,Estonia,2009-07,2009Q3,18.0,20.0,2.0,increase,HIGH,STATEE;RIIGIKOGU,一次確認2026-10-13: 統計局、議会(7/1遡及)
+EE,Estonia,2024-01,2024Q1,20.0,22.0,2.0,increase,HIGH,EC-A2M;ERR,一次確認2026-10-13: EC Access2Markets
+EE,Estonia,2025-07,2025Q3,22.0,24.0,2.0,increase,HIGH,VATCALC,
+ES,Spain,1986-01,1986Q1,,12.0,,introduction,HIGH,EC98;EC91,
+ES,Spain,1992-01,1992Q1,12.0,13.0,1.0,increase,HIGH,EC98,
+ES,Spain,1992-08,1992Q3,13.0,15.0,2.0,increase,HIGH,EC98,
+ES,Spain,1995-01,1995Q1,15.0,16.0,1.0,increase,HIGH,EC98;EC99,
+ES,Spain,2010-07,2010Q3,16.0,18.0,2.0,increase,HIGH,EC14;FUNCAS,
+ES,Spain,2012-09,2012Q3,18.0,21.0,3.0,increase,HIGH,EC14;AVALARA,
+FI,Finland,1994-06,1994Q2,,22.0,,introduction,HIGH,EC99,replaced turnover tax
+FI,Finland,2010-07,2010Q3,22.0,23.0,1.0,increase,HIGH,EC14,old rate inferred from EC99
+FI,Finland,2013-01,2013Q1,23.0,24.0,1.0,increase,HIGH,EC14;EC20,
+FI,Finland,2024-09,2024Q3,24.0,25.5,1.5,increase,HIGH,VEROFI,
+FR,France,1970-01,1970Q1,19.0,23.0,4.0,increase,MEDIUM,IPP;EC98,BASIS BREAK: rates to 1970-01 on VAT-inclusive prices (19 incl = 23.46 excl); not a real increase
+FR,France,1973-01,1973Q1,23.0,20.0,-3.0,cut,MEDIUM,IPP,一次確認2026-10-13: EC1991は1973-01-01、Larousse1973も1973年1月。IPPの1972-01は法的根拠なし。法令原文は未確認
+FR,France,1977-01,1977Q1,20.0,17.6,-2.4,cut,HIGH,IPP;EC98,
+FR,France,1982-07,1982Q3,17.6,18.6,1.0,increase,HIGH,IPP;EC91,
+FR,France,1995-08,1995Q3,18.6,20.6,2.0,increase,HIGH,IPP;EC98,
+FR,France,2000-04,2000Q2,20.6,19.6,-1.0,cut,HIGH,IPP;WIKIFR,
+FR,France,2014-01,2014Q1,19.6,20.0,0.4,increase,HIGH,IPP;EC20,
+GB,United Kingdom,1973-04,1973Q2,,10.0,,introduction,HIGH,HMRC,
+GB,United Kingdom,1974-07,1974Q3,10.0,8.0,-2.0,cut,HIGH,HMRC,
+GB,United Kingdom,1979-06,1979Q2,8.0,15.0,7.0,increase,HIGH,HMRC,same budget cut income tax
+GB,United Kingdom,1991-04,1991Q2,15.0,17.5,2.5,increase,HIGH,HMRC,poll-tax change in same budget
+GB,United Kingdom,2008-12,2008Q4,17.5,15.0,-2.5,temporary_cut,HIGH,HMRC,
+GB,United Kingdom,2010-01,2010Q1,15.0,17.5,2.5,reversal,HIGH,HMRC,
+GB,United Kingdom,2011-01,2011Q1,17.5,20.0,2.5,increase,HIGH,HMRC,
+GR,Greece,1987-01,1987Q1,,18.0,,introduction,HIGH,EC98;OECD_GR,
+GR,Greece,1988-01,1988Q1,18.0,16.0,-2.0,cut,HIGH,EC98;EC99,
+GR,Greece,1990-04,1990Q2,16.0,18.0,2.0,increase,HIGH,EC91;EC98,1990-04-28
+GR,Greece,2005-04,2005Q2,18.0,19.0,1.0,increase,MEDIUM,TAXHEAVEN;EUROSTAT,一次確認2026-10-13: Law 3336/2005 art.12(1)(商用DB経由、FEK未確認)。Eurostat2000年=18%で1999年説は否定
+GR,Greece,2010-03,2010Q1,19.0,21.0,2.0,increase,HIGH,ISER;EC14,2010-03-15
+GR,Greece,2010-07,2010Q3,21.0,23.0,2.0,increase,HIGH,ISER;EC14,EC20 oddly says 23 from 2015-07-20 (unresolved)
+GR,Greece,2016-06,2016Q2,23.0,24.0,1.0,increase,HIGH,EC20;ISER,一次確認2026-10-13: 2016-06-01(Law 4389/2016、KPMG経由)。OECDの7月は誤り
+HU,Hungary,1988-01,1988Q1,,25.0,,introduction,MEDIUM,SZEGED,一次確認2026-10-13: 1988-01導入は法(1987:V)で確認。当初の率は未確認、25%は1989:XL法で確認
+HU,Hungary,2006-01,2006Q1,25.0,20.0,-5.0,cut,HIGH,PARLAMENT;ECTT,一次確認2026-10-13: 国会法案T/17440+EC TT。燃料は2005-10に5pp先行引下げ。成立法番号は未確認
+HU,Hungary,2009-07,2009Q3,20.0,25.0,5.0,increase,HIGH,EC09,
+HU,Hungary,2012-01,2012Q1,25.0,27.0,2.0,increase,HIGH,AVALARA,
+IE,Ireland,1972-11,1972Q4,,16.37,,introduction,HIGH,REV,
+IE,Ireland,1973-09,1973Q3,16.37,19.5,3.13,increase,HIGH,REV,
+IE,Ireland,1976-03,1976Q1,19.5,20.0,0.5,increase,HIGH,REV,
+IE,Ireland,1980-05,1980Q2,20.0,25.0,5.0,increase,HIGH,REV,
+IE,Ireland,1982-05,1982Q2,25.0,30.0,5.0,increase,HIGH,REV,
+IE,Ireland,1983-03,1983Q1,30.0,35.0,5.0,increase,HIGH,REV,
+IE,Ireland,1985-03,1985Q1,35.0,23.0,-12.0,cut,HIGH,REV,
+IE,Ireland,1986-03,1986Q1,23.0,25.0,2.0,increase,HIGH,REV,
+IE,Ireland,1990-03,1990Q1,25.0,23.0,-2.0,cut,HIGH,REV,
+IE,Ireland,1991-03,1991Q1,23.0,21.0,-2.0,cut,HIGH,REV,
+IE,Ireland,2001-01,2001Q1,21.0,20.0,-1.0,cut,HIGH,REV,
+IE,Ireland,2002-03,2002Q1,20.0,21.0,1.0,increase,HIGH,REV,
+IE,Ireland,2008-12,2008Q4,21.0,21.5,0.5,increase,HIGH,REV,
+IE,Ireland,2010-01,2010Q1,21.5,21.0,-0.5,cut,HIGH,REV,
+IE,Ireland,2012-01,2012Q1,21.0,23.0,2.0,increase,HIGH,REV,
+IE,Ireland,2020-09,2020Q3,23.0,21.0,-2.0,temporary_cut,HIGH,REV,to 2021-02
+IE,Ireland,2021-03,2021Q1,21.0,23.0,2.0,reversal,HIGH,REV,
+IL,Israel,1976-07,1976Q3,,8.0,,introduction,HIGH,ITA,ITA報告書
+IL,Israel,1977-11,1977Q4,8.0,12.0,4.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,1982-08,1982Q3,12.0,15.0,3.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,1985-06,1985Q2,15.0,17.0,2.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,1985-10,1985Q4,17.0,15.0,-2.0,cut,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,1990-03,1990Q1,15.0,16.0,1.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,1991-01,1991Q1,16.0,18.0,2.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,1993-01,1993Q1,18.0,17.0,-1.0,cut,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2002-06,2002Q2,17.0,18.0,1.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2004-03,2004Q1,18.0,17.0,-1.0,cut,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2005-09,2005Q3,17.0,16.5,-0.5,cut,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2006-07,2006Q3,16.5,15.5,-1.0,cut,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2009-07,2009Q3,15.5,16.5,1.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2010-01,2010Q1,16.5,16.0,-0.5,cut,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2012-09,2012Q3,16.0,17.0,1.0,increase,LOW,YNET;CAPITAX,報道のみ。ITAの変更回数(1983-2001に5回、2002-2015に9回)とは整合
+IL,Israel,2013-06,2013Q2,17.0,18.0,1.0,increase,MEDIUM,BOI;ITA,一次確認2026-10-13: イスラエル銀行は6月と記す。6/2施行は非公式。従来の7月は誤り
+IL,Israel,2015-10,2015Q4,18.0,17.0,-1.0,cut,MEDIUM,ITA;BOI,一次確認2026-10-13: ITA報告書「2015年10月初から17%」
+IL,Israel,2025-01,2025Q1,17.0,18.0,1.0,increase,HIGH,MAROSA;JNS,一次確認2026-10-13: ITA通達2024-12-05
+IS,Iceland,1990-01,1990Q1,,24.5,,introduction,HIGH,ALTHINGI,一次確認2026-10-13: Lög 119/1989で24.5%(OECDの22%は誤り)
+IS,Iceland,2010-01,2010Q1,24.5,25.5,1.0,increase,HIGH,RSK,
+IS,Iceland,2015-01,2015Q1,25.5,24.0,-1.5,cut,HIGH,ALTHINGI;AVALARA,
+IT,Italy,1973-01,1973Q1,,12.0,,introduction,HIGH,EC98;EC99,
+IT,Italy,1977-02,1977Q1,12.0,14.0,2.0,increase,HIGH,EC98;EC99,1977-02-08
+IT,Italy,1980-07,1980Q3,14.0,15.0,1.0,increase,HIGH,EC98;EC99,
+IT,Italy,1980-11,1980Q4,15.0,14.0,-1.0,temporary_cut,MEDIUM,EC98;EC99,一次確認2026-10-13: 意図的な時限減税ではなく、7月デクレの失効(1980-11に14%)。主標本から除外を推奨
+IT,Italy,1981-01,1981Q1,14.0,15.0,1.0,reversal,MEDIUM,EC98;EC99,一次確認2026-10-13: L.889/1980。施行日は1981-01-15説とEC1991の1981-01-01
+IT,Italy,1982-08,1982Q3,15.0,18.0,3.0,increase,HIGH,EC98;EC99,
+IT,Italy,1988-08,1988Q3,18.0,19.0,1.0,increase,MEDIUM,EC98;EC91,一次確認2026-10-13: 法的根拠に不一致(DL 202/1989が18→19と記す)。未解決
+IT,Italy,1997-10,1997Q4,19.0,20.0,1.0,increase,HIGH,EC98;EC99,
+IT,Italy,2011-09,2011Q3,20.0,21.0,1.0,increase,HIGH,EC14;EC20,2011-09-17
+IT,Italy,2013-10,2013Q4,21.0,22.0,1.0,increase,HIGH,EC14;EC20,
+JP,Japan,1989-04,1989Q2,,3.0,,introduction,HIGH,NTA,日本論文で使用(施行日は法定)
+JP,Japan,1997-04,1997Q2,3.0,5.0,2.0,increase,HIGH,NTA,日本論文で使用(施行日は法定)
+JP,Japan,2014-04,2014Q2,5.0,8.0,3.0,increase,HIGH,NTA,日本論文で使用(施行日は法定)
+JP,Japan,2019-10,2019Q4,8.0,10.0,2.0,increase,HIGH,NTA,
+KR,South Korea,1977-07,1977Q3,,10.0,,introduction,MEDIUM,OECD24;TAXWATCH,一次確認2026-10-13: OECD:1977年導入10%、2024まで変更なし。月は非公式
+LT,Lithuania,1994-05,1994Q2,,18.0,,introduction,LOW,recalled,NOT verified
+LT,Lithuania,2009-01,2009Q1,18.0,19.0,1.0,increase,MEDIUM,EC09,一次確認2026-10-13: 月は非公式出典
+LT,Lithuania,2009-09,2009Q3,19.0,21.0,2.0,increase,MEDIUM,recalled,一次確認2026-10-13: 9月1日は間接的な根拠のみ
+LU,Luxembourg,1970-01,1970Q1,,8.0,,introduction,HIGH,EC98,
+LU,Luxembourg,1971-01,1971Q1,8.0,10.0,2.0,increase,HIGH,EC98,
+LU,Luxembourg,1983-07,1983Q3,10.0,12.0,2.0,increase,HIGH,EC98;EC91,
+LU,Luxembourg,1992-01,1992Q1,12.0,15.0,3.0,increase,HIGH,EC98;EC14,一次確認2026-10-13: EC表+首相声明。EC20の1993-01は誤り
+LU,Luxembourg,2015-01,2015Q1,15.0,17.0,2.0,increase,HIGH,EC20,
+LU,Luxembourg,2023-01,2023Q1,17.0,16.0,-1.0,temporary_cut,HIGH,ARENDT,planned to 2023-12-31
+LU,Luxembourg,2024-01,2024Q1,16.0,17.0,1.0,reversal,HIGH,ARENDT;CHRONICLE,一次確認2026-10-13: AED通達812-1
+LV,Latvia,1995-05,1995Q2,,18.0,,introduction,MEDIUM,recalled,一次確認2026-10-13: 旧PVN法1995-05施行(二次)。当初の率は公的原文で未確認
+LV,Latvia,2009-01,2009Q1,18.0,21.0,3.0,increase,HIGH,EC09;LB,
+LV,Latvia,2011-01,2011Q1,21.0,22.0,1.0,increase,MEDIUM,LB,
+LV,Latvia,2012-07,2012Q3,22.0,21.0,-1.0,cut,HIGH,LB;LVPORTALS,一次確認2026-10-13: ラトビア銀行+lvportals(官報未取得)
+MX,Mexico,1980-01,1980Q1,,10.0,,introduction,HIGH,DOF;GACETA,一次確認2026-10-13: 1978-12-29公布、1980-01-01施行。国境地域は6%
+MX,Mexico,1983-01,1983Q1,10.0,15.0,5.0,increase,HIGH,DOF;GACETA,一次確認2026-10-13: DOF 1982-12-31、1983-01施行
+MX,Mexico,1991-11,1991Q4,15.0,10.0,-5.0,cut,MEDIUM,DOF;COLMEX,一次確認2026-10-13: DOF 1991-11-21公布。従来の1991-01は誤り。日は未確認
+MX,Mexico,1995-04,1995Q2,10.0,15.0,5.0,increase,HIGH,DOF,一次確認2026-10-13: DOF 1995-03-27、1995-04-01施行
+MX,Mexico,2010-01,2010Q1,15.0,16.0,1.0,increase,HIGH,DOF;GACETA,一次確認2026-10-13: DOF 2009-12-07。施行条文は未読
+NL,Netherlands,1971-01,1971Q1,12.0,14.0,2.0,increase,HIGH,EC98,
+NL,Netherlands,1973-01,1973Q1,14.0,16.0,2.0,increase,HIGH,EC98,
+NL,Netherlands,1976-01,1976Q1,16.0,18.0,2.0,increase,HIGH,EC98,
+NL,Netherlands,1984-01,1984Q1,18.0,19.0,1.0,increase,HIGH,EC98,
+NL,Netherlands,1986-10,1986Q4,19.0,20.0,1.0,increase,HIGH,EC98,
+NL,Netherlands,1989-01,1989Q1,20.0,18.5,-1.5,cut,HIGH,EC98;EC91,
+NL,Netherlands,1992-10,1992Q4,18.5,17.5,-1.0,cut,HIGH,EC98;EC99,
+NL,Netherlands,2001-01,2001Q1,17.5,19.0,1.5,increase,HIGH,EC14;EC20,
+NL,Netherlands,2012-10,2012Q4,19.0,21.0,2.0,increase,HIGH,EC14;EC20,
+NO,Norway,1970-01,1970Q1,,20.0,,introduction,HIGH,SSB,
+NO,Norway,1993-01,1993Q1,20.0,22.0,2.0,increase,HIGH,SSB,
+NO,Norway,1995-01,1995Q1,22.0,23.0,1.0,increase,HIGH,SSB,
+NO,Norway,2001-01,2001Q1,23.0,24.0,1.0,increase,HIGH,SSB,
+NO,Norway,2005-01,2005Q1,24.0,25.0,1.0,increase,HIGH,SKATTEETATEN,一次確認2026-10-13: SKD11/04
+NZ,New Zealand,1986-10,1986Q4,,10.0,,introduction,HIGH,NZCALC,
+NZ,New Zealand,1989-07,1989Q3,10.0,12.5,2.5,increase,HIGH,IRD;OMBUDSMAN,一次確認2026-10-13: IRD見解:1989-07-01施行。改正法は未確認
+NZ,New Zealand,2010-10,2010Q4,12.5,15.0,2.5,increase,HIGH,NZCALC;WIKINZ,
+PL,Poland,1993-07,1993Q3,,22.0,,introduction,MEDIUM,recalled,NOT verified
+PL,Poland,2011-01,2011Q1,22.0,23.0,1.0,increase,HIGH,MF-PL,一次確認2026-10-13: 財務省。当初は2013末までの時限、2013・2016に延長、2019から無期限(条件付き復帰)
+PT,Portugal,1986-01,1986Q1,,16.0,,introduction,HIGH,EC98;DOUTOR,mainland
+PT,Portugal,1988-02,1988Q1,16.0,17.0,1.0,increase,HIGH,EC98;EC91,
+PT,Portugal,1992-03,1992Q1,17.0,16.0,-1.0,cut,HIGH,EC98;DOUTOR,coincides with abolition of zero rate (zero-rated goods to 5%)
+PT,Portugal,1995-01,1995Q1,16.0,17.0,1.0,increase,HIGH,EC98;DOUTOR,
+PT,Portugal,2002-06,2002Q2,17.0,19.0,2.0,increase,HIGH,DOUTOR,一次確認2026-10-13: Lei 16-A/2002(日は5-6日、OCC経由)
+PT,Portugal,2005-07,2005Q3,19.0,21.0,2.0,increase,HIGH,DOUTOR,一次確認2026-10-13: Lei 39/2005(OCC経由)
+PT,Portugal,2008-07,2008Q3,21.0,20.0,-1.0,cut,HIGH,DOUTOR,一次確認2026-10-13: Lei 26-A/2008、AT通達30104
+PT,Portugal,2010-07,2010Q3,20.0,21.0,1.0,increase,HIGH,EC14;DOUTOR,
+PT,Portugal,2011-01,2011Q1,21.0,23.0,2.0,increase,HIGH,EC14;EC20,
+SE,Sweden,1971-01,1971Q1,11.11,17.65,6.54,increase,HIGH,SKV,tax-exclusive conversion of Skatteverket tax-inclusive rates
+SE,Sweden,1974-04,1974Q2,17.65,13.64,-4.01,temporary_cut,HIGH,SKV,converted
+SE,Sweden,1974-09,1974Q3,13.64,17.65,4.01,reversal,HIGH,SKV,converted
+SE,Sweden,1977-06,1977Q2,17.65,20.63,2.98,increase,HIGH,SKV,converted
+SE,Sweden,1980-09,1980Q3,20.63,23.46,2.83,increase,HIGH,SKV,converted
+SE,Sweden,1981-11,1981Q4,23.46,21.51,-1.95,cut,HIGH,SKV,converted
+SE,Sweden,1983-01,1983Q1,21.51,23.46,1.95,increase,HIGH,SKV,converted
+SE,Sweden,1990-07,1990Q3,23.46,25.0,1.54,increase,HIGH,SKV,一次確認2026-10-13: Skatteverket表で1990-07-01を確認
+SI,Slovenia,1999-07,1999Q3,,19.0,,introduction,MEDIUM,recalled,一次確認2026-10-13: ZDDV 19%は確認、施行日は未確認
+SI,Slovenia,2002-01,2002Q1,19.0,20.0,1.0,increase,HIGH,URADNI-LIST,一次確認2026-10-13: Ur. l. RS 106/2001規則
+SI,Slovenia,2013-07,2013Q3,20.0,22.0,2.0,increase,HIGH,URADNI-LIST,一次確認2026-10-13: ZIPRS1314-A、Ur. l. RS 46/2013
+SK,Slovak Republic,1993-01,1993Q1,,23.0,,introduction,HIGH,SLOV-LEX,一次確認2026-10-13: 連邦法222/1992 §16
+SK,Slovak Republic,1993-08,1993Q3,23.0,25.0,2.0,increase,HIGH,SLOV-LEX,"Acts 165/1993, 159/1993。一次確認で新たに発見"
+SK,Slovak Republic,1996-01,1996Q1,25.0,23.0,-2.0,cut,HIGH,SLOV-LEX,Act 289/1995 §10。従来の「23→25」は誤り。1999-07は軽減税率6→10のみ変更
+SK,Slovak Republic,2003-01,2003Q1,23.0,20.0,-3.0,cut,HIGH,SLOV-LEX,一次確認2026-10-13: Act 289/1995 版2003-01-01
+SK,Slovak Republic,2004-01,2004Q1,20.0,19.0,-1.0,cut,HIGH,SLOV-LEX,一次確認2026-10-13: 単一税率19%(フラットタックス改革年)
+SK,Slovak Republic,2011-01,2011Q1,19.0,20.0,1.0,increase,HIGH,SLOV-LEX,一次確認2026-10-13: Act 490/2010 §85j(2010年説は誤り)。20%は赤字<3%まで条件付き
+SK,Slovak Republic,2025-01,2025Q1,20.0,23.0,3.0,increase,HIGH,SLOV-LEX,一次確認2026-10-13: Act 278/2024
+TR,Turkey,2023-07,2023Q3,18.0,20.0,2.0,increase,HIGH,PWC-TR;RESMIGAZETE,一次確認2026-10-13: 大統領決定7346、2023-07-10。2001年以前は未確認(履歴不完全)
+TW,Taiwan,1986-04,1986Q2,,5.0,,introduction,LOW,anchor,一次確認2026-10-13: 事業税法10条は5〜10%と規定。1986-04の5%導入の公的原文は未確認
