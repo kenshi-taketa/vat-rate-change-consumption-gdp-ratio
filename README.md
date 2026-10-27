@@ -45,18 +45,33 @@ python code/figures_tables/make_tables_en.py      # Tables 1-3 (written next to 
 
 The per-episode estimation results used by Figure 2 are stored in `results/res_pickles_20261015.zip`. Unzip it inside `results/` (it creates `results/res/`) before running the Figure 2-3 script.
 
+Appendix Tables F.1 and F.2 (ln C and ln Y), from `code/python/`. The inputs are in one folder `P/` (the downloaded series in `P/raw_fred_20261015/`, `P/panel_japan_spliced_20261015.csv`, `P/vat_rate_changes.csv`, `P/core_episodes_20261015.csv`; the spliced Japan file is not in this repository, see above):
+
+```
+python run_lnc.py P OUT_C 2            # weights fitted to ln C   -> OUT_C/lnc_res.pkl
+python run_lny.py P OUT_Y 2            # weights fitted to ln Y   -> OUT_Y/lny_res.pkl
+mkdir out
+python P6_ratio_weights_decomposition_run_20261025.py P OUT_C   # ratio weights applied to ln C and ln Y -> out/dec_res.pkl
+python aggregate_f_tables.py OUT_C/lnc_res.pkl OUT_Y/lny_res.pkl out/dec_res.pkl
+```
+
+(The last number of the first two commands is the number of processes. The decomposition script imports `run_lnc.py`, which reads its second argument, so any folder name works there.) The stored outputs of this run are in `results/f_tables/`.
+
 Random seeds: permutation across episodes 20261015 (B = 100,000 draws); prediction intervals (scpi) 20261010.
 
 ## What has been checked
 
-Checked against the files in this repository (2026-10-27):
+Checked against the files in this repository (2026-10-27 and 2026-10-28):
 - Figures 1-3 and Tables 1-3 are rebuilt by the scripts in `code/figures_tables/`; the mean gap of the 11 increases (-0.12) and its 95% range (-2.32 to +1.74) match the paper.
 - Table 2 (gap, placebo p-value, conformal p-value and own-history kink p-value, 12 episodes), the first eight rows of Table 3, Appendix Table B.1 (donor pools and weights), C.2, C.3, E.1 (ASCM cells), E.2 (all 13 rows) and the 34 classes and evidence types in A.1 agree with the result files and inputs here.
 - The main comparison of motive types (3 vs 7 episodes, difference -5.25, exact p = 0.04, from all 50 rearrangements of the labels) was recomputed independently from `results/episode_results.csv`.
+- Appendix Tables A.2 and A.3 (other motive definitions; every row) and the online appendix Table S1 were recomputed from the inputs and result files here and agree with the paper. One value differs in the last digit: for "Japan 1997 left out" the recomputed and stored p-value is 0.068 (the manuscript of 2026-10-27 printed 0.067; corrected in the version of 2026-10-28).
+- Appendix Tables F.1 and F.2 were recomputed from the downloaded FRED files (`results/f_tables/f_tables_check_20261028.txt`): F.1 ln C -3.47 (p = 0.04), ln Y -1.23 (p = 0.45); F.2 ratio -0.12 (sd 1.0, p = 0.91), ln C -4.06 (sd 6.6, p = 0.54), ln Y -3.94 (sd 6.9, p = 0.57). They equal the paper.
+- Small difference between two scripts: the upper end of the 95% range for the synthetic-control (SCM) mean gap in Table 3 is 2.5436 when `aggregate_stage4.py` is run and 2.53 when `stage4_extra.py` is run; the paper gives +2.53 (the value of `stage4_extra.py`). We think the two scripts draw different random permutations for this range, but we have not confirmed this. The estimates themselves are not affected.
 - The estimation code (`code/python/run_stage4.py`) was run again from the downloaded FRED files for the 21 main-specification episodes (all 12 core episodes included). The results equal the stored ones up to 1e-14.
 
 Not yet checked:
-- Appendix Tables A.2 and A.3 (other motive definitions): the numbers are in the output files of the motive scripts, but we have not re-run all of them in this layout. Tables F.1 and F.2 (ln C and ln Y), the online appendix Table S1, the `gsynth` row of Table E.1 and the prediction intervals (`scpi`) are not re-run here either.
+- The `gsynth` row of Table E.1 (only five episodes' R results were at hand), the counts of `scpi` prediction intervals quoted in the text, and the numbers in the notes of Table A.2 for the extended sample (for example the leave-one-out values for Estonia 2009 and Japan) are not re-run here.
 - The scripts in `code/figures_tables/not_checked/` (older table numbering) run when the folder layout of the original project is rebuilt; their numbering does not follow the current paper.
 - `code/R/final_rerun/` and `code/stata/` re-do the checks of Appendix E; the Stata part has not been run by us in the cloud (no Stata there). The online appendix (S1) reports what was compared.
 - A fresh download of the FRED series and a comparison with `logs/fred_download_log_20261015.csv` (MD5) is still to be done on the author's computer.
