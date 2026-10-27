@@ -12,7 +12,7 @@ by Kenshi Taketa (Aoyama Gakuin University).
 | `code/python/` | The main estimation: ridge-augmented synthetic control, placebo and permutation tests, conformal sets, prediction intervals. Read `code/python/README_code.md` first. |
 | `code/stata/`, `code/R/` | Independent re-runs in Stata and R (see the README in each folder). |
 | `code/figures_tables/` | Scripts for Figures 1-3 and Tables 1-3 (`not_checked/` holds the scripts for the other tables; see below). |
-| `inputs/` | Our own inputs: the list of VAT rate changes with dates and sources, the core episodes, the episode candidates, and our classification of motives. |
+| `inputs/` | Our own inputs: the list of VAT rate changes with dates and sources, the core episodes, the episode candidates, and our classification of motives (including `P6_ext34_source_status_20261022_v4.csv`, the classes of the 34 extended increases as in Table A.1). |
 | `logs/` | Download log (series, URL, time, size, MD5), summary of the download, and the series start dates. |
 | `results/` | Result files used for the paper's tables and figures. |
 | `CHECKSUMS.txt` | SHA-256 of every file in this repository. |
@@ -49,10 +49,17 @@ Random seeds: permutation across episodes 20261015 (B = 100,000 draws); predicti
 
 ## What has been checked
 
-- Figures 1-3 and Tables 1-3 were rebuilt from the files in this repository (run on 2026-10-27); the mean gap of the 11 increases (-0.12) and its 95% range (-2.32 to +1.74) match the paper.
-- Tables 4-7 and the appendix tables: their scripts are in `code/figures_tables/not_checked/`. They read files (for example `s5/`, `s10/`, `kink/out2/`) that are not in this repository, and we have not run them in this layout.
-- `code/R/final_rerun/` and `code/stata/` were written to re-do the checks of Appendix E; the Stata part has not been run by us in the cloud (no Stata there). The online appendix (S1) reports what was compared.
-- The estimation scripts (`code/python/`) need the raw FRED files, which you download in step 1, and the Japan splice file. We have not run the whole chain from a fresh download in this repository layout.
+Checked against the files in this repository (2026-10-27):
+- Figures 1-3 and Tables 1-3 are rebuilt by the scripts in `code/figures_tables/`; the mean gap of the 11 increases (-0.12) and its 95% range (-2.32 to +1.74) match the paper.
+- Table 2 (gap, placebo p-value, conformal p-value and own-history kink p-value, 12 episodes), the first eight rows of Table 3, Appendix Table B.1 (donor pools and weights), C.2, C.3, E.1 (ASCM cells), E.2 (all 13 rows) and the 34 classes and evidence types in A.1 agree with the result files and inputs here.
+- The main comparison of motive types (3 vs 7 episodes, difference -5.25, exact p = 0.04, from all 50 rearrangements of the labels) was recomputed independently from `results/episode_results.csv`.
+- The estimation code (`code/python/run_stage4.py`) was run again from the downloaded FRED files for the 21 main-specification episodes (all 12 core episodes included). The results equal the stored ones up to 1e-14.
+
+Not yet checked:
+- Appendix Tables A.2 and A.3 (other motive definitions): the numbers are in the output files of the motive scripts, but we have not re-run all of them in this layout. Tables F.1 and F.2 (ln C and ln Y), the online appendix Table S1, the `gsynth` row of Table E.1 and the prediction intervals (`scpi`) are not re-run here either.
+- The scripts in `code/figures_tables/not_checked/` (older table numbering) run when the folder layout of the original project is rebuilt; their numbering does not follow the current paper.
+- `code/R/final_rerun/` and `code/stata/` re-do the checks of Appendix E; the Stata part has not been run by us in the cloud (no Stata there). The online appendix (S1) reports what was compared.
+- A fresh download of the FRED series and a comparison with `logs/fred_download_log_20261015.csv` (MD5) is still to be done on the author's computer.
 
 ## License
 
