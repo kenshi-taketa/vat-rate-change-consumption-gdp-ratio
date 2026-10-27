@@ -12,7 +12,7 @@ by Kenshi Taketa (Aoyama Gakuin University).
 | `code/python/` | The main estimation: ridge-augmented synthetic control, placebo and permutation tests, conformal sets, prediction intervals. Read `code/python/README_code.md` first. |
 | `code/stata/`, `code/R/` | Independent re-runs in Stata and R (see the README in each folder). |
 | `code/figures_tables/` | Scripts for Figures 1-3 and Tables 1-3 (`not_checked/` holds the scripts for the other tables; see below). |
-| `inputs/` | Our own inputs: the list of VAT rate changes with dates and sources, the core episodes, the episode candidates, and our classification of motives (including `P6_ext34_source_status_20261022_v4.csv`, the classes of the 34 extended increases as in Table A.1). |
+| `inputs/` | Our own inputs: the list of VAT rate changes with dates and sources, the core episodes, the episode candidates, and our classification of motives (including `japan_esri_retro_parsed_2780.csv`, the ESRI series before 1994, and `P6_ext34_source_status_20261022_v4.csv`, the classes of the 34 extended increases as in Table A.1). |
 | `logs/` | Download log (series, URL, time, size, MD5), summary of the download, and the series start dates. |
 | `results/` | Result files used for the paper's tables and figures. |
 | `CHECKSUMS.txt` | SHA-256 of every file in this repository. |
@@ -27,14 +27,16 @@ Eurostat series (2026 vintage) are used for one robustness check.
 The download log has no column for the name of the computer used (we removed it).
 Six series were not available at download (see `logs/fetch_summary_20261015.txt`).
 
-Japan before 1994 uses a spliced series (the ESRI retrospective series scaled to the OECD series). The file with the spliced series is not included, and which script builds it has not been confirmed (`code/fetch/stage2_remaining_checks_20261015.py` holds the stage-2 checks). Whether the spliced file may be shared has not been decided.
+Japan before 1994 uses a spliced series. Before 1994Q1 we use the "simplified retrospective" series of the Economic and Social Research Institute (ESRI), Cabinet Office, Government of Japan (real, seasonally adjusted, 2015 chained prices; file `gaku-jk_2780.csv`; see the ESRI note at https://www.esri.cao.go.jp/jp/sna/data/data_list/h27_retroactive/pdf/h27sokyu_gaiyou.pdf). ESRI describes it as a reference series made by a simple method. The values as parsed are in `inputs/japan_esri_retro_parsed_2780.csv` (1980Q1-1995Q1; private consumption total and GDP, in billions of yen).
+**Edited by the author:** we multiply each of the two ESRI series by one constant so that it equals the OECD value in 1994Q1, and we use the OECD (FRED) values from 1994Q1. The result is not an official figure of ESRI. The ESRI content is used under the Public Data License v1.0 of the Japanese government (compatible with CC BY 4.0). We do not copy the spliced file, because it also holds the OECD values; `code/fetch/build_japan_splice.py` rebuilds it from the ESRI file and the two FRED series (`NAEXKP02JPQ661S`, `NAEXKP01JPQ661S`). Our rebuild is identical, byte for byte, to the file used in the paper (MD5 dd0984f88daf33612bc496885513e7d6, 175 data rows).
 
 ## How to run
 
 1. Download the series: `python code/fetch/fetch_fred_panel_20261015.py` (Python 3.8+, standard library only). It writes `raw_fred_<date>/`, a download log and a summary next to the script.
-2. Estimation, in this order (details and arguments in `code/python/README_code.md`):
+2. Japan splice (needed by the estimation): `python code/fetch/build_japan_splice.py raw_fred_<date> inputs/japan_esri_retro_parsed_2780.csv panel_japan_spliced_20261015.csv`.
+3. Estimation, in this order (details and arguments in `code/python/README_code.md`):
    `run_stage4.py` -> `aggregate_stage4.py` -> `stage4_extra.py`, and `compare_rerun.py` to compare with the stored results.
-3. Figures 1-3 and Tables 1-3 from the stored results, run from the root of this repository:
+4. Figures 1-3 and Tables 1-3 from the stored results, run from the root of this repository:
 
 ```
 export P6_DATA=.  P6_STAGE4_OUT=results  P6_OUT=.
