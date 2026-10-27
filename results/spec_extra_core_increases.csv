@@ -1,0 +1,11 @@
+﻿cell,est,n,estimate,perm_p_two,q05,q95
+all 11,ascm,11,-0.122,0.906,-1.99,1.48
+all 11,scm,11,-0.249,0.872,-3.5,2.1
+drop euro-crisis HU/NL/SI,ascm,8,0.441,0.747,-2.51,2.01
+drop euro-crisis HU/NL/SI,scm,8,0.92,0.652,-4.59,2.89
+drop JP2014,ascm,10,0.273,0.81,-2.15,1.62
+drop JP2014,scm,10,0.133,0.937,-3.83,2.3
+drop JP2014+euro,ascm,7,1.085,0.483,-2.85,2.31
+drop JP2014+euro,scm,7,1.633,0.486,-5.25,3.3
+GB1979Q3 in place of Q2,ascm,11,-0.066,0.953,-2.64,1.51
+GB1979Q3 in place of Q2,scm,11,-0.194,0.898,-3.05,2.11
