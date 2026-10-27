@@ -1,0 +1,5 @@
+F.1 weights fitted to ln C: mean gap -3.47  sd of random averages 1.6  two-sided p 0.038  n=11
+F.1 weights fitted to ln Y: mean gap -1.23  sd of random averages 1.8  two-sided p 0.453  n=11
+F.2 ratio weights applied to ln C - ln Y: mean gap -0.12  sd of random averages 1.0  two-sided p 0.908  n=11
+F.2 ratio weights applied to ln C: mean gap -4.06  sd of random averages 6.6  two-sided p 0.538  n=11
+F.2 ratio weights applied to ln Y: mean gap -3.94  sd of random averages 6.9  two-sided p 0.571  n=11
