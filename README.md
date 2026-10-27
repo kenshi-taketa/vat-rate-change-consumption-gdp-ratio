@@ -43,6 +43,8 @@ python code/figures_tables/P6_make_figs23_pdf_20261027.py
 python code/figures_tables/make_tables_en.py      # Tables 1-3 (written next to the script)
 ```
 
+The per-episode estimation results used by Figure 2 are stored in `results/res_pickles_20261015.zip`. Unzip it inside `results/` (it creates `results/res/`) before running the Figure 2-3 script.
+
 Random seeds: permutation across episodes 20261015 (B = 100,000 draws); prediction intervals (scpi) 20261010.
 
 ## What has been checked
